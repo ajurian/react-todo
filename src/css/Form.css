@@ -1,0 +1,56 @@
+.Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+
+    margin-top: 1rem;
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Input > input {
+    background-color: var(--white);
+    color: var(--black);
+
+    padding: 0 0.5rem 0 0.5rem;
+    outline: 0;
+    border: 0;
+    
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 16rem;
+}
+
+.Input > button {
+    width: 40px;
+    height: 40px;
+
+    background-color: var(--blue);
+    color: var(--white);
+
+    font-weight: bold;
+
+    outline: 0;
+    border: 0;
+    margin: 0.3rem;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.Filter {
+    background-color: var(--white);
+    color: var(--black);
+    
+    padding: 0.3rem;
+    outline: 0;
+    border: 0;
+}

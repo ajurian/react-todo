@@ -1,0 +1,39 @@
+.Todo {
+    background-color: var(--white);
+    color: var(--black);
+
+    margin-top: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Todo > span {
+    display: inline-block;
+    margin: 0.3rem 0.9rem 0.3rem 0.45rem;
+    font-weight: 550;
+}
+
+.Todo.Completed > span {
+    text-decoration: line-through;
+}
+
+.Todo > button {
+    padding: 0.7rem;
+    cursor: pointer;
+    color: var(--white);
+
+    outline: 0;
+    border: 0;
+}
+
+.Done {
+    background-color: var(--green);
+}
+
+.Delete {
+    background-color: var(--red);
+}

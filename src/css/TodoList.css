@@ -1,0 +1,13 @@
+.Todo-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Todo-list > span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: var(--gray);
+}
